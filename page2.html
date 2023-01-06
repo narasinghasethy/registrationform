@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>page2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <div class="mask">
+        <div class="container">
+            <div class="form-container">
+                <form action="page3.html" onsubmit="my()" method="post">
+                    <div class="tab"><b>HSC Instituion name</b><span style="color:red;">&#42;</span>
+
+                        <P><input id="HSCinstitute" type="text" class="date" required></P> <br>
+
+
+                        <p><b>HSC Board</b><span style="color:red;">&#42;</p></span>
+                        <P><select id="HSCboard">
+                                <option value="Select" class="date">--Select--</option>
+                                <option value="CBSE">CBSE</option>
+                                <option value="ICSC">ICSC</option>
+                                <option value="State board">State board</option>
+                            </select></P><br>
+
+
+                        <p><b>Score in HSC(in % only)</b><span style="color:red;">&#42;</p></span>
+                        <P><input id="hscmark" type="number" class="date" required></P><br>
+                        <p><b>SSC Instituion name</b><span style="color:red;">&#42;</p></span>
+                        <P><input id="SSCinstitute" type="text" class="date" required></P><br>
+
+
+                        <p><b>SSC Board</b><span style="color:red;">&#42;</p></span>
+                        <P><select id="SSCboard">
+                                <option value="Select">--Select--</option>
+                                <option value="CBSE">CBSE</option>
+                                <option value="ICSC">ICSC</option>
+                                <option value="State board">State board</option>
+                            </select></P><br>
+
+                        <p><b>Score in SSC(in % only)</b><span style="color:red;">&#42;</p></span>
+                        <P><input id="sscmark" type="number" class="date" required></P><br>
+
+
+                        <p><b>Currently pursuing</b><span style="color:red;">&#42;</p></span>
+                        <P><input type="text" id="curCourse" class="date" required></P>
+
+
+                        <p><b>Current educational Instituion name</b><span style="color:red;">&#42;<p></span>
+                        <P><input type="text" id="curInstitute" class="date" required></P>
+
+
+                        <p><b>Overall percentage</b><span style="color:red;">&#42;</p></span>
+                        <P><input type="number" id="overAllMark" class="date" required></P>
+
+
+                        <p><b>Current backlogs if any</b><span style="color:red;">&#42;</p></span>
+                        <P><input type="number" id="backlogs" class="date" required></P><br>
+                        <div>
+                        <button type="button" class="btn"><a href="page1.html">previous</a></button>
+                        <!--<button type="button" class="btn"><a href="page3.html">next</a></button>-->
+                         <input type="submit" value="Submit" id="btn_2" class="submit">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="FormSubmit2.js"></script>
+
+</html>

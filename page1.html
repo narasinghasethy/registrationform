@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>page1</title>
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+    <div class="mask">
+        <div class="container">
+            <h2>Registration form</h2>
+            <div class="form-container">
+                <form action="page2.html" onsubmit="my()" method="post">
+                    <div class="tab"><b>Name</b><span style="color:red;">&#42;</span>
+
+                        <p> <input type="text" id="firstname" placeholder="First name" class="name" required> <input
+                                type="text" id="lastname" placeholder="Last name" class="name" required></p>
+
+
+                        <p><b>Date of Birth</b><span style="color:red;">&#42;</p></span>
+                        <P><input type="Date" id="dob" class="date" required></P>
+
+
+                        <p><b>Email</b><span style="color:red;">&#42;</p></span>
+                        <input type="email" id="email" placeholder="E-mail..." class="date" required>
+
+
+                        <p><b>Father's name</b><span style="color:red;">&#42;</p></span>
+                        <P><input type="text" id="FFname" placeholder="first name..." class="name" required> <input
+                                type="text" id="FLname" placeholder="Last name..." class="name" required></P>
+
+
+                        <p><b>Mother's name</b><span style="color:red;">&#42;</p></span>
+                        <P><input type="text" id="MFname" placeholder="first name..." class="name" required> <input
+                                type="text" id="MLname" placeholder="Last name..." class="name" required></P>
+
+
+                        <p><b>Gender</b><span style="color:red;">&#42;</p></span>
+                        <P><input type="radio" id="r1" name="gender" value="male" checked>
+                            <label>Male</label>
+                        </P>
+                        <P><input type="radio" id="r2" name="gender" value="female" checked>
+                            <label>Female</label>
+                        </P>
+
+
+                        <p><b>Nationality</b><span style="color:red;">&#42;</p></span>
+                        <P><input type="text" id="nationality" placeholder="" class="date" required></P>
+
+
+                        <p><b>Home Address</b><span style="color:red;">&#42;</p></span>
+                        <P><input type="text" id="Saddress" placeholder="Street Address" class="date" required></P><br>
+                        <P><input type="text" id="city" placeholder="City" class="name" required> <input type="text"
+                                id="country" placeholder="Country" class="name" required></P>
+
+
+                        <p><b>Telephone-Home</b></p>
+                        <P><input id="Hteleno" placeholder="### ### ####" type="tel" name="phone"
+                                pattern="[0-9]{3} [0-9]{3} [0-9]{4}" class="date" required></P>
+
+
+                        <p><b>Telephone-Mobile</b><span style="color:red;">&#42;</p></span>
+                        <P><input id="Mteleno" placeholder="### ### ####" type="tel" name="phone"
+                                pattern="[0-9]{3} [0-9]{3} [0-9]{4}" class="date" required></P>
+
+                         <input type="submit" value="Submit" id="btn_1" class="submit">
+                    <!--    <button type="button" class="btn"><a href="page2.html">next</a></button>-->
+                    </div>
+                </form>                                                             
+            </div>
+        </div>
+    </div>
+</body>
+<Script src="FormSubmit1.js"></Script>
+
+</html>

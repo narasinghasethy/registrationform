@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>page3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="mask">
+
+        <div class="container">
+            <div class="form-container">
+
+                <form action="" onsubmit="my()" method="post">
+
+                    <div class="tab">
+                        <p><b>Recent passport size photograph(image size less than 4MB)</b><span
+                            style="color:red;">&#42;</span></p><br>
+                        <P><label>Browser a file</label> <input type="file" id="pic_file" accept=".jpg" required></P>
+                        <br>
+
+
+                        <p><b>HSC mark sheet(image , pdf or docs size less than 4MB)</b><span
+                                style="color:red;">&#42;</span></p><br>
+                        <P><label>Browser a file</label> <input type="file" id="HSC_mark_file" accept=".jpg,.pdf,.docs" required>
+                        </P><br>
+
+
+                        <p><b>SSC mark sheet(image , pdf or docs size less than 4MB)</b><span style="color:red;">&#42;
+                        </span></p><br>
+                        <P><label>Browser a file</label> <input type="file" id="SSC_mark_file" accept=".jpg,.pdf,.docs" required>
+                        </P><br>
+
+
+                        <p><b>All semesters mark sheet in a single PDF(file size less than 10MB)</b><span
+                                style="color:red;">&#42;</span></p><br>
+                        <P><label>Browser a file</label> <input type="file" id="all_sem_file" accept=".jpg,.pdf,.docs" required>
+                        </P><br>
+
+
+                        <div style="overflow:auto;">
+                            <br>
+                            <button type="button" class="btn" onclick="nextprev(-1)"><a
+                                    href="page2.html">Previous</a></button>
+                                    <input type="submit" id="btn_3" value="Submit" class="submit">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="FormSubmit3.js"></script>
+
+</html>
